@@ -1,130 +1,477 @@
 
 
-<!DOCTYPE html>
+<!--Force IE6 into quirks mode with this comment tag-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link rel="canonical" href="https://clshao.github.io/">
-<title>Chenglong Shao, Korea University</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="keywords" content="Chenglong Shao, 邵成龙"> 
+<meta name="description" content="Welcome to Chenglong's homepage"> 
+<title>Chenglong Shao</title> 
+
 <style type="text/css">
-<!--
-a { text-decoration:none; }
-a:link {color:#a9c8bc;font-weight:bold;}      /* unvisited link */
-a:visited {color:#2c3e4f;}  /* visited link */
-a:hover {color:#ea644f;}  /* mouse over link */
-a:active {color:#2c3e4f;}  /* selected link */
-body {
-	font-size: 1.1em;
-	font-family: 'Open Sans', sans-serif;
-	color:#454549;
-	background: #ffffff;
-	
-	}
-#photo {float:left;width:175px;height:200px;}
-#info {float:left;width:750px;height:230px;margin-left:10px;font-size: 1.0em;}
-#upper {margin-top:25px;margin-left:25px;}
-#myphoto {width:125px;}
-#total {line-height:110%;background:  #ffffff;margin:auto;width:1024px;padding:12px;}
-#statement {text-align:justify;margin-top:10px;margin-left:25px;margin-bottom:10px;}
-#myname {font-size:36px;font-weight:bold;color:#2c3e4f;}
-#paper {font-size:0.5em;font-weight:bold;color:#2c3e4f;}
-.section {font-weight:bold;font-size:22px;color:#2c3e4f;}
--->
+/* The following is to prevent underlining hyperlinks */
+a { text-decoration:none }
+body{
+background-color: #b3b5b7;/*#b3b5b7;*/ 
+}
+#framecontentLeft, #framecontentRight{
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 250px; /*Width of left frame div*/
+height: 100%;
+overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+background-color: #2F4F4F;
+color: white;
+}
+#framecontentRight{
+left: auto;
+right: 0; 
+width: 250px; /*Width of right frame div*/
+overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+background-color: #2F4F4F/*#DCDCDC*/;
+color: white;
+}
+#framecontentTop, #framecontentBottom{
+position: relative;
+top: 0; 
+left: 0px; /*Set left value to WidthOfLeftFrameDiv*/
+right: 0px; /*Set right value to WidthOfRightFrameDiv*/
+width: auto;
+height: 2050px; /*Height of top frame div*/
+overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+background-color: #2F4F4F;
+color: #191970;
+/*font-family:Impact, Charcoal, sans-serif;*/
+font-family="Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size:300%;
+text-align:center;
+}
+#framecontentBottom{
+top: auto;
+height: 10px; /*Height of bottom frame div*/
+bottom: 0;
+}
+#maincontent{
+position: absolute;
+top: 20px; /*Set top value to HeightOfTopFrameDiv*/
+bottom: 10px; /*Set bottom value to HeightOfBottomFrameDiv*/
+left: 200px; /*Set left value to WidthOfLeftFrameDiv*/
+right: 200px; /*Set right value to WidthOfRightFrameDiv*/
+height: 1800px;
+/*overflow: auto;*/
+background: #336699;
+background-color:#e8e7e3;
+border-style:solid;
+border-width:1px;
+border-color: #336699;
+/*font-family:Impact, Charcoal, sans-serif;*/
+/*font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+font-family:Georgia, "Times New Roman", Times, serif;
+/*font-family:'Open Sans', sans-serif;*/
+font-size:115%;
+color:#303030;
+/*
+-moz-border-radius: 15px;
+border-radius: 15px;*/
+}
+#exampleborderradius {
+-moz-border-radius: 15px;
+border-radius: 15px;
+background: #787878;
+}
+.innertube{
+margin: 40px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+* html body{ /*IE6 hack*/
+padding: 20px 250px 250px 10px; /*Set value to (HeightOfTopFrameDiv
+WidthOfRightFrameDiv HeightOfBottomFrameDiv WidthOfLeftFrameDiv)*/
+}
+* html #maincontent{ /*IE6 hack*/
+height: 100%; 
+width: 100%; 
+}
+* html #framecontentTop, * html #framecontentBottom{ /*IE6 hack*/
+width: 100%;
+}
 </style>
+
 </head>
+
 <body>
-<div id="total">
-			<div>
-		<div style='float:left;'>
-			<img src="clshao_profile.jpg" style='width:50%;margin-left:80px' />
-		</div>
-		<div>
-			<span class='section'>Chenglong Shao</span>
-			<ul>
-			<span>Research Professor</span><br />
-			<span>Network and Security Research Lab</span><br />
-			<span>Korea University</span><br /><br />
-			<span>Email: chenglong at korea.ac.kr</span><br />
-		</div>
-	</div>
-		<br />
-<br /><br />
-	<div id="statement">
-		<p>I am a Ph.D. student majoring computer science at <a href="http://www.korea.edu/" target="_blank">Korea University</a> advised by <a href="http://netlab.korea.ac.kr/wlee/" target="_blank">Prof. Wonjun Lee</a>. Prior to  joining <a href="http://netlab.korea.ac.kr/" target="_blank">NetLab</a> in March 2012, I completed my undergrad at Korea University.
-		</p>
-	</div>
-  <span class="section">Recent News</span>
-  	
-	<ul>
-		<li><strong>Jul. 2019</strong> I will join  Korea University as a lecturer next semester</li>
-	<li><strong>Apr. 2019</strong> I will present  a tutorial on P4-SFC at upcoming P4 WG 1st Meetup</li>
-  <li><strong>Mar. 2019</strong> Early-stage work of LossPass accepted to IEEE Communications Letters</li>
-</ul>
-  <span class="section">Research Interests</span>
-	<ul>
-		<li>Data center networking</li>
-		<li>Cloud computing</li>
-		<li>Programmable dataplane</li>
-		<li>AI-enabled networking</li>
-	</ul>
-  <span class="section">Research Experience</span>
-	<ul>
-		<li>aSTEAM: App-Specialized Transport for Evolvability, Autonomicity, and Measurability, NRF, South Korea, 2018 - Present</li>
-		<li>Development of Core Technologies for Programmable Switch in Multi-Service Networks, IITP, South Korea, 2017 - Present</li>
-		<li>Cloud Bridges-Piers: Optimization Technologies towards Higher Performance of Wireless Networking Cloud, NRF, South Korea, 2013 - 2016</li>
-		<li>A Fair Network Performance Isolation Framework in Multi-Tenancy Cloud Data Center Networks, Global Ph.D. Fellowship, NRF, South Korea, 2012 - 2014 </li>
-	</ul>
-<span class="section">Talks</span>
+
+</center>
+<TABLE align="center">
+<TR>
+<center>
+<TD width="800" valign="center" bgcolor="ffffff" style="padding:40px">
+
+<p><img border="0" src="clshao_profile.jpg" height="200" align="left" style="border: 0px solid #FFFFFF; padding-left: 10px; padding-right: 30px; padding-top: 0px; padding-bottom: 1px">
+<font face="Georgia">
+<font face="helvetica", size=7, color=#778899>Chenglong Shao, Ph.D.</font>
+<br>
+<font face="helvetica", size=4><b>Researcher Professor, Network and Security Research Lab</b></font>
+<font face="helvetica", size=4><b>Korea University</b></font>
+<br>
+<font face="georgia">Email:</font> </font color><a rel="dc:creator" style="color: #1E90FF;" property="foaf:mbox" href="mailto:chenglong@korea.ac.kr"><font face="georgia">chenglong@korea.ac.kr</a><br /></font>
+<font size=1><br></font>
+<font face="georgia">I'm a Research Professor in the Future Network Center at Korea University. I received my Ph.D. degree in 2019 at Korea University, under the supervision of Prof. <a style="color: #1E90FF;" href="http://netlab.korea.ac.kr/wlee/">Wonjun Lee</a>. I received my B.S. degree in 2010 at Xi'an Jiaotong University. My research interests include wireless networks and mobile computing, RF-powered computing and networking, machine learning for the Internet of Things, and cooperative networking.
+</font>
+
+<hr size="2" color="#778899">
+
+<!--
+<font face="helvetica", size=5, color=#778899>I will join in Microsoft Ambient Intelligence group as a researcher in this fall.</font>
+-->
+
+<font size=1><br></font>
+<font size=1><br></font>
+<font face="Georgia"><b>RESEARCH</b>: Wireless networks, Internet of Things (IoT), and Mobile systems.
+<br>
 <ul>
-<li>Tutorial: P4 SFC, SDN/NFV Forum P4 WG 2019 1st Meetup, Seoul, South Korea, April 19, 2019. </li> 
-<li>Service Function Chaining in P4-enabled Programmable Switches, SDN/NFV Forum P4 WG 2018 2nd Meetup, Seoul, South Korea, October 12, 2018.  <a href="https://github.com/multip4/P4-SFC" target="_blank">[code]</a></li> 
-<li>Controller-independent Loss-aware Low Latency State Migration in Network Functions Virtualization, ONOS-P4 Brigade Work Days 2017, Seoul, South Korea, September 19, 2017.</li>
-<li>Stable Matching with Ties for Cloud-assisted Smart TV Services, IEEE ICCE 2014, Las Vegas, NV, January 13, 2014.</li>
-<li>Cannot Take My Allocation: Enforcing Fairness by Considering Demand and Payment in Clouds, NoF 2013, Pohang, South Korea, October 24, 2013.</li>
-<li>Virtual Machines Placement for Network Isolation in Clouds, ACM RACS 2012, San Antonio, TX, October 26, 2012.</li> 
+  <li><b>Wireless networks</b>: [NSDI'19], [Sigcomm'18], [Sigcomm'17], [HotNets'17]<br>
+  <li><b>Internet of Things</b>: [MobiCom'19],[Mobisys'17], [Mobisys'16], [CoNEXT'16], [NSDI'15]<br>
+  <li><b>Mobile Systems</b>: [Sensys'15a], [Sensys'15b], [Ubicomp'14a], [Ubicomp'14b]<br>
 </ul>
- <span class="section">Publications</span>
-  <ul>
-	  	<li><strong>Gyuyeong Kim</strong> and Wonjun Lee, "Absorbing Microbursts without Headroom for Data Center Networks," <i>IEEE Communications Letters</i> <strong>(CL)</strong>, Vol. 23, No. 5, pp. 806-809, May 2019. <a href="./papers/losspass_letter_preprint.pdf" target="_blank">[pdf]</a></li>
-		<li><strong>Gyuyeong Kim</strong> and Wonjun Lee, "Tardy Flow Scheduling in Data Center Networks," <i>IEICE Transactions on Information and Systems</i> <strong>(Trans. Inf.&Syst.)</strong> , Vol. E99-D, No. 9, pp. 2400-2403, September 2016. <a href="./papers/tfs_published.pdf" target="_blank">[pdf]</a></li>
-		<li><strong>Gyuyeong Kim</strong> and Wonjun Lee, "Stable Matching with Ties for Cloud-assisted Smart TV Services," in <i>Proc. of the 14th IEEE International Conference on Consumer Electronics</i> <strong>(ICCE 2014)</strong>, January 2014. <a href="./papers/icce14.pdf" target="_blank">[pdf]</a></li>
-		<li><strong>Gyuyeong Kim</strong> and Wonjun Lee, "Cannot Take My Allocation: Enforcing Fairness by Considering Demand and Payment in Clouds," in <i>Proc. of the 4th International Conference on Network of the Future</i> <strong>(NoF 2013)</strong>, October 2013. <a href="./papers/nof13.pdf" target="_blank">[pdf]</a></li>
-		<li><strong>Gyuyeong Kim</strong>, Hoorin Park, Jieun Yu, and Wonjun Lee, "Virtual Machines Placement for Network Isolation in Clouds," in <i>Proc. of 2012 Research in Applied Computation Symposium</i> <strong>(RACS 2012)</strong>, October 2012. <a href="./papers/racs12_corrected.pdf" target="_blank">[pdf]</a></li>
- </ul>
-				
- <span class="section">Patents</span>
-	<ul>
-	    <li>Wonjun Lee and Gyuyeong Kim, "Method and Device for Scheduling Flow of Packet for Reducing Delay Time Due To Retransmit of Packet," Korean Patent 10-1841143, March 16, 2018.</li>
-	</ul>
- <span class="section">Teaching</span>
-  <ul>
-  	  	<li>Computer Networks (IMS301) - Spring 2020 (Appointed)</li>
-	  	<li>Computer Networks (IMS301) - Fall 2019</li>
- </ul>
-				
-  <span class="section">Work Experience</span>
-	<ul>
-	    <li>President at <a href="http://klue.kr/"  target="_blank">KLUE</a> (Korea University Lecture Evaluation), South Korea, January 2011 - February 2015.</li>
-		<li>Co-Founder and Junior Developer at KLUE, South Korea, March 2010 - June 2010.</li>
-				<ul>
-					<li style="font-size: 0.6em"><a href="http://ppss.kr/archives/63695" target="_blank">‘좋은 강의’와 ‘대학 강의 평가’</a>, ppss(ㅍㅍㅅㅅ), December 10, 2015. </li>
-					<li style="font-size: 0.6em"><a href="./figures/mju.jpg" target="_blank">강의의 모든 것, "명강의' '이화노트' 'KLUE'</a>,The Myungji Press (명대신문), April 20, 2013. </li>
-					<li style="font-size: 0.6em"><a href="http://www.thegranitetower.com/news/articleView.html?idxno=447" target="_blank">Students without Rights to Know</a>, The Granite Tower, April 2, 2013. </li>
-					<li style="font-size: 0.6em"><a href="http://news.unn.net/news/articleView.html?idxno=118758" target="_blank">학생강의평가 사이트 "유용한데~"</a>, Daily UNN(한국대학신문), January 7, 2013. </li>
-					<li style="font-size: 0.6em"><a href="http://www.ktv.go.kr/content/view?content_id=412584" target="_blank">고려대, 총학이 강의평가한다</a>, KTV(한국정책방송), January 12, 2012. </li>
-			  </ul>
-		
-	</ul>
-  <span class="section">Awards and Honors</span>
-	<ul>
-		<li>IEEE Seoul Section International Student Paper Contest Bronze Paper Award, 2014.</li>
-		<li>Global Ph.D. Fellowship (GPF), NRF, South Korea, 2012-2014.</li>
-		<li>ACM-ICPC Seoul Regional Contest 10th Place, 2009.</li>
-		<li>National Collegiate Programming Contest Silver Prize, South Korea, 2009.</li>
-		<li>Oracle JavaFX Software Contest 3rd Prize, 2009. </li>
-		<li>ACM-ICPC Seoul Regional Contest Honorable Mentions, 2008. </li>
-	</ul>
-	<p>Last Update: July 9, 2019</p>
-</div>
+
+
+<!--
+  <b>Upcoming travel</b>
+<br>
+<ul>
+  <li>March 30, ECE@UMASS<br>
+</ul>
+-->
+<font size=1><br></font>
+<font face="Georgia"><b>SELECTED PUBLICATIONS</b></font>:
+<font face="Georgia">
+<ul>
+<!--
+<embed src="https://www.youtube.com/embed/F9Bo89m2f6g" allowfullscreen="true" width="400", height="315"">
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+</iframe>
+-->
+
+<table id="portfolio-projects">
+  <tr style="border-width: 1px">
+    <td style="margin-bottom: 10px"><img src="nsdi19.png" width="150" style="padding-bottom: 10px"></td>
+      <td style="">
+        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+          <p>
+            <b>Towards Programming the Radio Environment with Large Arrays of Inexpensive Antennas</b><br>
+            Zhuqi Li, Yaxiong Xie, <font color=#778899>Longfei Shangguan</font>, Rotman Ivan Zelaya, Jeremy Gummeson, Wenjun Hu, and Kyle Jamieson. <br>
+            <a style="color: #EE7F2D;" href="https://www.usenix.org/conference/nsdi19"> NSDI'19</a>, Boston, USA.<br>
+            <a style="color: #1E90FF;" href="https://paws.cs.princeton.edu/sites/default/files/LAIA_NSDI19_final.pdf">Paper</a>&nbsp;&#183;&nbsp;
+          </p>
+      </td><td style="width: 10px;"></td>
+      </tr>
+      </table>           
+    </td>
+    </tr>  
+  
+  
+  <tr style="border-width: 1px">
+    <td style="margin-bottom: 10px"><img src="sigcomm18.png" width="150" style="padding-bottom: 10px"></td>
+      <td style="">
+        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+          <p>
+            <b>PLoRa: Passive Long-Range Data Networks from Ambient LoRa Transmissions</b><br>
+            Yao Peng*, <font color=#778899>Longfei Shangguan*</font>, Yue Hu, Yujie Qian, Xianshang Lin, Xiaojiang Chen, Dingyi Fang, and Kyle Jamieson. (*: co-primary, alphabet order)<br>
+            <a style="color: #EE7F2D;" href="https://conferences.sigcomm.org/sigcomm/2018/"> Sigcomm'18</a>, Budapest, Hungary.<br>
+            <a style="color: #1E90FF;" href="https://dl.acm.org/authorize.cfm?key=N666845">Paper</a>&nbsp;&#183;&nbsp;
+            <a style="color: #1E90FF;" href="https://www.youtube.com/watch?v=zJ0p0uQ3wtg">Talk</a>&nbsp;&#183;&nbsp;
+            <a style="color: #1E90FF;" href="https://www.youtube.com/watch?v=yHocu_n2udI&t=12s">Demo</a>
+          </p>
+      </td><td style="width: 10px;"></td>
+      </tr>
+      </table>           
+    </td>
+    </tr>  
+
+  <tr style="border-width: 1px">
+    <td style="margin-bottom: 10px"><img src="hotnets17.png" width="150" style="padding-bottom: 10px"></td>
+      <td style="">
+        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+          <p>
+            <b>Programmable Radio Environments for Smart Spaces</b><br>
+            Allen Walkie, <font color=#778899>Longfei Shangguan</font>, Jeremy Gummeson, Wenjun Hu, and Kyle Jamieson. <br>
+            <a style="color: #EE7F2D;" href="http://conferences.sigcomm.org/hotnets/2017/"> HotNets'17</a>, Palo Alto, CA, USA.<br>
+            <a style="color: #1E90FF;" href="https://dl.acm.org/citation.cfm?id=3152456">Paper</a>
+          </p>
+      </td><td style="width: 10px;"></td>
+      </tr>
+      </table>           
+    </td>
+    </tr>   
+
+  <tr style="border-width: 1px">
+    <td style="margin-bottom: 10px"><img src="sigcomm17.png" width="150" style="padding-bottom: 10px"></td>
+      <td style="">
+        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+          <p>
+            <b>Wi-Fi Goes to Town: Rapid Picocell Switching for Wireless Transit Networks</b><br>
+            Zhenyu Song, <font color=#778899>Longfei Shangguan</font>, and Kyle Jamieson. <br>
+            <a style="color: #EE7F2D;" href="http://conferences.sigcomm.org/sigcomm/2017/"> Sigcomm'17</a>, Los Angeles, CA, USA.<br>
+            <a style="color: #1E90FF;" href="http://paws.cs.princeton.edu/sites/default/files/press_hotnets17_0.pdf">Paper</a>&nbsp;&#183;&nbsp;
+            <a style="color: #1E90FF;" href="http://paws.cs.princeton.edu/" >Video</a>
+          </p>
+      </td><td style="width: 10px;"></td>
+      </tr>
+      </table>           
+    </td>
+    </tr> 
+ 
+  <tr style="border-width: 1px">
+    <td style="margin-bottom: 10px"><img src="mobisys17.png" width="150" style="padding-bottom: 10px"></td>
+      <td style="">
+        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+          <p>
+            <b>Enabling Gesture-based Interactions With Object</b><br>
+            <font color=#778899>Longfei Shangguan</font>, Zimu Zhou, and Kyle Jamieson. <br>
+            <a style="color: #EE7F2D;" href="https://www.sigmobile.org/mobisys/2017/"> MobiSys'17</a>, Niagara Falls, NY, USA.<br>
+            <a style="color: #1E90FF;" href="http://dl.acm.org/citation.cfm?id=3081364&CFID=783607377&CFTOKEN=73533177">Paper</a>&nbsp;&#183;&nbsp;
+            <a style="color: #1E90FF;" href="https://www.youtube.com/watch?v=Q66UBpygw5Y" >Video</a>
+          </p>
+      </td><td style="width: 10px;"></td>
+      </tr>
+      </table>           
+    </td>
+    </tr> 
+
+  <tr style="border-width: 1px">
+    <td style="margin-bottom: 10px "><img src="conext16.png" width="150" style="padding-bottom: 10px"></td>
+      <td style="">
+        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+          <p>
+            <b>Leveraging Electromagnetic Polarization in a Two-Antenna Whiteboard in the Air</b><br>
+            <font color=#778899>Longfei Shangguan</font>, and Kyle Jamieson. <br>
+            <a style="color: #EE7F2D;" href="http://conferences2.sigcomm.org/co-next/2016/#!/home"> CoNEXT'16</a>, Irvine, CA, USA.<br>
+            <a style="color: #1E90FF;" href="http://dl.acm.org/citation.cfm?id=2999601">Paper</a>
+          </p>
+      </td><td style="width: 10px;"></td>
+      </tr>
+      </table>           
+    </td>
+    </tr> 
+
+  <tr style="border-width: 1px">
+    <td style="margin-bottom: 10px"><img src="mobisys16.png" width="150" style="padding-bottom: 10px"></td>
+      <td style="">
+        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+          <p>
+            <b>The Design and Implementation of a Mobile RFID Tag Sorting Robot</b><br>
+            <font color=#778899>Longfei Shangguan</font>, and Kyle Jamieson. <br>
+            <a style="color: #EE7F2D;" href="https://www.sigmobile.org/mobisys/2016/"> MobiSys'16</a>, Singapore.<br>
+            <a style="color: #1E90FF;" href="http://dl.acm.org/citation.cfm?id=2906417">Paper</a>&nbsp;&#183;&nbsp;
+            <a style="color: #1E90FF;" href="https://www.youtube.com/watch?v=Drf8pL9oikA" >Video</a>&nbsp;&#183;&nbsp;
+            <a style="color: #1E90FF;" href="https://www.youtube.com/watch?v=WBLJ0xTohZQ" >Talk</a>
+          </p>
+      </td><td style="width: 10px;"></td>
+      </tr>
+      </table>           
+    </td>
+    </tr>
+
+  <tr style="border-width: 1px">
+    <td style="margin-bottom: 10px"><img src="nsdi15.png" width="150" style="padding-bottom: 10px"></td>
+      <td style="">
+        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+          <p>
+            <b>Relative Localization of RFID Tags using Spatial-temporal Phase Profiling</b><br>
+            <font color=#778899>Longfei Shangguan</font>, Zheng Yang, Alex. Liu, Zimu Zhou, and Yunhao Liu. <br>
+            <a style="color: #EE7F2D;" href="https://www.usenix.org/node/188981"> NSDI'15</a>, Oakland, CA, USA..<br>
+            <a style="color: #1E90FF;" href="https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-shangguan.pdf">Paper</a>&nbsp;&#183;&nbsp;
+            <a style="color: #1E90FF;" href="https://www.usenix.org/node/188981" >Talk</a>
+          </p>
+      </td><td style="width: 10px;"></td>
+      </tr>
+      </table>           
+    </td>
+    </tr>
+
+  <tr style="border-width: 1px">
+    <td style="margin-bottom: 10px"><img src="sensys15.png" width="150" style="padding-bottom: 10px"></td>
+      <td style="">
+        <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+          <p>
+            <b> ShopMiner: Mining Customer Shopping Behavior in Physical Clothing Stores with Passive RFIDs</b><br>
+            <font color=#778899>Longfei Shangguan</font>, Zimu Zhou, Xiaolong Zheng, Lei Yang, Yunhao Liu, and Jinsong Han <br>
+            <a style="color: #EE7F2D;" href="http://sensys.acm.org/2015/"> SenSys'15</a>, Seoul, South Korea.<br>
+            <a style="color: #1E90FF;" href="http://people.ee.ethz.ch/~zzhou/paper/sensys15-shangguan.pdf">Paper</a>
+          </p>
+      </td><td style="width: 10px;"></td>
+      </tr>
+      </table>           
+    </td>
+    </tr>
+
+</table>
+
+</ul>
+<!--   <li><b>Programmable Radio Environments for Smart Spaces</b>
+  <br>
+  Allen Walkie, <font color=#778899>Longfei Shangguan</font>, Jeremy Gummeson, Wenjun Hu, and Kyle Jamieson. &nbsp
+  <b><small><a href="http://paws.cs.princeton.edu/sites/default/files/press_hotnets17_0.pdf">[PAPER]</a> &nbsp &nbsp </small></b>
+  <br/>
+  <i><a href="http://conferences.sigcomm.org/hotnets/2017/"> HotNets'17</a></i>,
+  Palo Alto, CA, USA.
+  <br><br>  
+  <li><b>Wi-Fi Goes to Town: Rapid Picocell Switching for Wireless Transit Networks</b>
+  <br>
+  Zhenyu Song, <font color=#778899>Longfei Shangguan</font>, and Kyle Jamieson. &nbsp
+  <b><small><a href="http://paws.cs.princeton.edu/node/37">[PAPER]</a> &nbsp &nbsp 
+  <a href="http://paws.cs.princeton.edu/" >[VIDEO]</a>  &nbsp  &nbsp 
+  </small></b>
+  <br/>
+  <i><a href="http://conferences.sigcomm.org/sigcomm/2017/"> Sigcomm'17</a></i>,
+  Los Angeles, CA, USA.
+  <br><br>   
+  <li><b>Enabling Gesture-based Interactions With Object</b>
+  <br>
+  <font color=#778899>Longfei Shangguan</font>, Zimu Zhou, and Kyle Jamieson. &nbsp
+  <b><small><a href="http://dl.acm.org/citation.cfm?id=3081364&CFID=783607377&CFTOKEN=73533177">[PAPER]</a> &nbsp &nbsp 
+  <a href="https://www.youtube.com/watch?v=Q66UBpygw5Y" >[VIDEO]</a>  &nbsp  &nbsp 
+  </small></b>
+ <br/>
+  <i><a href="https://www.sigmobile.org/mobisys/2017/">ACM MobiSys'17</a></i>,
+  Niagara Falls, NY, USA.
+  <br><br>
+  <li><b>Leveraging Electromagnetic Polarization in a Two-Antenna Whiteboard in the Air</b>
+  <br>
+  <font color=#778899>Longfei Shangguan</font>, and Kyle Jamieson. &nbsp
+  <b><small><a href="http://dl.acm.org/citation.cfm?id=2999601">[PAPER]</a> &nbsp &nbsp </small></b>
+  <br/>
+  <i><a href="http://conferences2.sigcomm.org/co-next/2016/#!/home">ACM CoNEXT'16</a></i>, 
+  Irvine, CA, USA.
+  <br><br>
+  <li><b>The Design and Implementation of a Mobile RFID Tag Sorting Robot</b>
+  <br>
+  <font color=#778899>Longfei Shangguan</font>, and Kyle Jamieson. &nbsp 
+  <b><small><a href="http://dl.acm.org/citation.cfm?id=2906417">[PAPER]</a> &nbsp &nbsp 
+  <a href="https://www.youtube.com/watch?v=Drf8pL9oikA" >[VIDEO]</a>  &nbsp  &nbsp 
+  <a href="https://www.youtube.com/watch?v=WBLJ0xTohZQ" >[TALK]</a>  &nbsp  &nbsp </small></b>
+  <br/>
+  <i><a href="https://www.sigmobile.org/mobisys/2016/">ACM MobiSys'16</a></i>, 
+  Singapore.
+  <br><br>
+  <li><b>Relative Localization of RFID Tags using Spatial-temporal Phase Profiling</b>
+  <br>
+  <font color=#778899>Longfei Shangguan</font>, Zheng Yang, Alex. Liu, Zimu Zhou, and Yunhao Liu. &nbsp 
+    <b><small><a href="https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-shangguan.pdf">[PAPER]</a> &nbsp &nbsp 
+   <a href="https://www.usenix.org/node/188981" >[TALK]</a>  &nbsp  &nbsp </small></b>
+  <br/>
+  <i><a href="https://www.usenix.org/conference/nsdi15">USENIX NSDI'15</a></i>, 
+  Oakland, CA, USA. (Extended version: Transactions on Networking.)
+  <br><br> 
+  <li><b>ShopMiner: Mining Customer Shopping Behavior in Physical Clothing Stores with COTS RFID
+Devices</b>
+  <br>
+  <font color=#778899>Longfei Shangguan</font>, Zimu Zhou, Xiaolong Zheng, Yunhao Liu, Lei Yang and Jinsong Han. &nbsp 
+    <b><small><a href="http://dl.acm.org/citation.cfm?id=2809710">[PAPER]</a> &nbsp &nbsp  </small></b>
+  <br/>
+  <i><a href="http://sensys.acm.org/2015/">ACM SenSys'15</a></i>, 
+  Seoul, South Korea. (Extended version: Transactions on Networking.)
+  <br><br>
+  <li><b>FEMO: A Platform for Free-weight Exercise Monitoring with RFIDs</b>
+  <br>
+  Han Ding, <font color=#778899>Longfei Shangguan</font>, Zheng Yang, Jinsong Han, Zimu Zhou, Panlong Yang, Wei Xi and Jizhong Zhao. &nbsp 
+    <b><small><a href="http://dl.acm.org/citation.cfm?id=2809708">[PAPER]</a> &nbsp &nbsp  </small></b>
+  <br/>
+  <i><a href="http://sensys.acm.org/2015/">ACM SenSys'15</a></i>, 
+  Seoul, South Korea. (Extended version: Transactions on Mobile Computing.)
+  <br><br>
+  <br> Please find the full list in my <a href="./Longfei_files/CV_Longfei.pdf">CV</a>.</br>
+</ul>
+</font>
+-->
+
+<font size=1><br></font>
+<font face="Georgia"><b>INVITED TALKS</b></font>:
+<font face="Georgia">
+<ul>
+
+<!--
+ <li><b>Harnessing the Internet of Too Many Wireless Things</b>
+  <br>
+  Zhejiang University, September, 2018.
+  <br>
+  Southeast University, September, 2018.
+  <br>
+  Northwest University, September, 2018.
+  <br>
+  Huazhong University of Science and Technology, October, 2018.
+  <br>
+  Tsinghua University, October, 2018.
+  <br>
+  Peking University, October, 2018.
+  <br>
+  Beijing University of Posts and Telecommunications, October, 2018.
+  <br>
+  Shenzhen University, October, 2018.
+  <br>
+  City University of Hong Kong, October, 2018.
+  <br>
+  Hong Kong Polytechnic University, October, 2018.
+  <br>
+  Nanjing University, October, 2018.
+  <br>
+  National University of Defense Technology, October, 2018.
+  <br><br>
+  -->
+  <li><b>Pushing the Limits of Mobility in the Wireless Internet of Things</b>
+  <br>
+  CS, University of Illinois at Chicago, February, 2018.
+  <br>
+  ECE, Duke, March, 2018.
+  <br>
+  Microsoft research, March, 2018.
+  <br>
+  HP Lab, March, 2018.
+  <br>
+  ECE, UMASS Amherst, March, 2018. 
+  <br><br>
+  <li><b>RF Beyond ID</b>
+  <br>
+  NEC Lab America, November, 2017.
+  <br><br>
+  <li><b>Bring Spatial-awareness to RFID Systems</b>
+  <br>
+  New Jersey Institute of Technology, April, 2017.
+  <br><br>
+  <li><b>Five Cents Computing: Sensing Human and Object in the Wireless Network of Things</b>
+  <br>
+  Wayne State University, April, 2017.
+  <br>
+  ECE&CS joint seminar, Michigan State University, April, 2017.
+  <br>
+  WINLAB, Rutgers University, April, 2017.
+  <br><br>
+  </li>
+  <li><b>RFID-based Localization, Tracking and Sensing System</b>
+  <br>
+  Stevens Institute of Technology, March, 2016.
+  </li>
+  <br><br>
+</ul>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-92799810-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</TD>
+</center>
+</TR>
+</TABLE>
+</center>
 </body>
 </html>
