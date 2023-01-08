@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anirban Laha</title>
+    <link>https://anirbanlaha.github.io/</link>
+    <description>Recent content on Anirban Laha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 23 Jul 2019 09:14:03 +0530</lastBuildDate>
+    
+	<atom:link href="https://anirbanlaha.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://anirbanlaha.github.io/home/hero_carousel/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/hero_carousel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>https://anirbanlaha.github.io/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/hero/</guid>
+      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://anirbanlaha.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/about/</guid>
+      <description>Hello | Bonjour | Hola | Namaste I am currently associated with the AI Tech group at IBM Research AI - India. I will be joining as PhD student in Université de Montréal (MILA) from September 2019 (to be advised by Prof. Aaron Courville). 
+My interests lie in applications of machine learning/deep learning in natural language processing. I have been working in the natural language generation (NLG) project in IBM for the last two years and have published papers in top conferences like NeurIPS, ACL and NAACL-HLT.</description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://anirbanlaha.github.io/home/skills/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent News</title>
+      <link>https://anirbanlaha.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/posts/</guid>
+      <description>[14 May, 2019] Our paper &amp;ldquo;Unsupervised Neural Text Simplification&amp;rdquo; got accepted in ACL 2019 arXiv.
+ [5 Feb, 2019] Our tutorial proposal &amp;ldquo;Storytelling from Structured Data and Knowledge Graphs : An NLG Perspective&amp;rdquo; got accepted for ACL 2019. The tutorial will be held on July 28th, 2019 in Florence, Italy. More details coming soon!!!
+ [6 Dec, 2018] Poster for the work &amp;ldquo;On Controllable Sparse Alternatives to Softmax&amp;rdquo; was presented in NeurIPS conference in Montreal, Canada.</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://anirbanlaha.github.io/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://anirbanlaha.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://anirbanlaha.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://anirbanlaha.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>https://anirbanlaha.github.io/home/talks_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/talks_selected/</guid>
+      <description> [07 Mar, 2018] Generating Natural Language Descriptions from Structured Data. Venue: IBM Research-IISc Workshop on Knowledge and Learning organised at IISc. Details: Link
+ [20 Jan, 2018] Tutorial on Natural Language Processing and Generation. Venue: Technical Talk on the broader theme of ‘Cognitive Analytics and NLP’ as part of the annual science and cultural fest at IISc, Bangalore.
+  </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://anirbanlaha.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/projects/</guid>
+      <description>Controllable Sparse Alternatives to Softmax: We study techniques for converting a real vector to a probability distribution. We propose a unified framework which leads to understanding of existing approaches incl. softmax. Our framework also enables providing explicit controls to vary sparsity of the output distribution. Additionally, our proposed convex loss functions enable achievement of greater sparsity for multi-label classification task. We also show encouraging results for sparse attention in NLG tasks.</description>
+    </item>
+    
+    <item>
+      <title>Custom Section</title>
+      <link>https://anirbanlaha.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/teaching/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://anirbanlaha.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://anirbanlaha.github.io/home/search/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://anirbanlaha.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable Micro-planned Generation of Discourse from Structured Data</title>
+      <link>https://anirbanlaha.github.io/publication/cl-2019/</link>
+      <pubDate>Tue, 23 Jul 2019 09:14:03 +0530</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/publication/cl-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Neural Text Simplification</title>
+      <link>https://anirbanlaha.github.io/publication/acl-2019/</link>
+      <pubDate>Tue, 21 May 2019 11:40:48 +0530</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/publication/acl-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Controllable Sparse Alternatives to Softmax</title>
+      <link>https://anirbanlaha.github.io/publication/nips-2018/</link>
+      <pubDate>Tue, 06 Nov 2018 22:51:04 +0530</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/publication/nips-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Descriptions from Structured Data Using a Bifocal Attention Mechanism and Gated Orthogonalization</title>
+      <link>https://anirbanlaha.github.io/publication/naacl-2018-long/</link>
+      <pubDate>Mon, 04 Jun 2018 23:09:33 +0530</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/publication/naacl-2018-long/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Mixed Hierarchical Attention based Encoder-Decoder Approach for Standard Table Summarization</title>
+      <link>https://anirbanlaha.github.io/publication/naacl-2018-short/</link>
+      <pubDate>Sun, 03 Jun 2018 23:09:44 +0530</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/publication/naacl-2018-short/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diversity driven Attention Model for Query-based Abstractive Summarization</title>
+      <link>https://anirbanlaha.github.io/publication/acl-2017/</link>
+      <pubDate>Fri, 01 Dec 2017 23:22:09 +0530</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/publication/acl-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Learning of Correlated Sequence Labelling Tasks Using Bidirectional Recurrent Neural Networks</title>
+      <link>https://anirbanlaha.github.io/publication/interspeech-2017/</link>
+      <pubDate>Sun, 20 Aug 2017 23:22:16 +0530</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/publication/interspeech-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story Generation from Sequence of Independent Short Descriptions</title>
+      <link>https://anirbanlaha.github.io/publication/ml4creativity-2017-gen/</link>
+      <pubDate>Tue, 15 Aug 2017 00:01:02 +0530</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/publication/ml4creativity-2017-gen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Machine Learning Approach for Evaluating Creative Artifacts</title>
+      <link>https://anirbanlaha.github.io/publication/ml4creativity-2017-metrices/</link>
+      <pubDate>Mon, 14 Aug 2017 00:00:52 +0530</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/publication/ml4creativity-2017-metrices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Empirical Evaluation of various Deep Learning Architectures for Bi-Sequence Classification Tasks</title>
+      <link>https://anirbanlaha.github.io/publication/coling-2016/</link>
+      <pubDate>Tue, 06 Dec 2016 23:22:00 +0530</pubDate>
+      
+      <guid>https://anirbanlaha.github.io/publication/coling-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
