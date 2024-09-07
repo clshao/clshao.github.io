@@ -1238,16 +1238,14 @@ article .article-metadata {
  **************************************************/
 
 .contact-widget .fa-ul {
-  margin-left: 2.14285714rem; /* Must be > `fa-2x` icon size. */
+  margin-left: 3.14285714rem; /* Must be > `fa-2x` icon size. */
 }
 
 .contact-widget .fa-li {
   position: absolute;
-  left: -2.14285714rem; /* Negative of `.contact-widget .fa-ul` margin. */
-  /*width: 2rem; /* Match `fa-2x` icon size. */
-  width: 1rem;
-  /*top: 0.14285714em; /* Default FA value. */
-  top: 0.2em;
+  left: -3.14285714rem; /* Negative of `.contact-widget .fa-ul` margin. */
+  width: 2rem; /* Match `fa-2x` icon size. */
+  top: 0.14285714em; /* Default FA value. */
   text-align: center;
 }
 
