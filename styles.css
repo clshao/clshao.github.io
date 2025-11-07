@@ -1621,6 +1621,15 @@ nav#navbar-main li.nav-item {
   }
 }
 
+/* Allow long lab name in navbar-brand to wrap on small screens */
+.navbar-light .navbar-brand {
+  white-space: normal;
+  line-height: 1.2;
+  word-break: break-word;
+  display: inline-block;
+  text-align: left;
+}
+
 /*************************************************
  *  Tables
  **************************************************/
